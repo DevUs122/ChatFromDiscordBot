@@ -29,5 +29,5 @@ async def send_message(ctx):
     message = input("What's the message that you want to send? : ")
     await ctx.send(message)
 
-
+token = open("TOKEN", "r").read()
 client.run(token)
